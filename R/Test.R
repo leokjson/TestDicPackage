@@ -1,10 +1,10 @@
 library(roxygen2)
 library(devtools)
-document()
+#document()
 
 #??hello
-#install_github('leokjson/TestDicPackage', force=TRUE)
-#library(TestDicPackage)
+install_github('leokjson/TestDicPackage', force=TRUE)
+library(TestDicPackage)
 
 hello()
 square(2)
